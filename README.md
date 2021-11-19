@@ -17,3 +17,8 @@ Projeto com diversos exemplos de aplicações automatizadas em diferentes cenár
 Os códigos de teste na AWS não executados na etapa ContinuosTest, no estagio chamado TestRun, que executa o TestSpec, que é um arquivo BuildSpec do CodeBuild ( [Documentação AWS]() ) para gerar os testes.
 
 Nesse arquivo, é necessário para executar os nossos testesm especificar linguagem/runtime que será utilizado( [Versões da AWS]() ), e os comandos necessários para executar a instação das dependências (phase->install) e execução do teste (phase->build).
+
+<a href="https://www.linkedin.com/in/mateus-macedo-937a32163/">
+ <img style="border-radius:50%" width="100px; "src="https://avatars.githubusercontent.com/u/63172367?s=460&u=11fd26ea8a7f5663d7707d7ef254e4f8bfca1b05&v=4"/>
+ <p>Mateus Macedo</p>
+</a>
