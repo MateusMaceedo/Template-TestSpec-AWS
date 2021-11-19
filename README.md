@@ -11,3 +11,9 @@ Projeto com diversos exemplos de aplicações automatizadas em diferentes cenár
 
 | **Nome da Branch**                                              | **Tipo de Teste** | **Tipo Pipeline** | **Descrisão** |
 | ----------------------------------------------------------------|-------------------|-------------------|---------------|
+
+#### Onde executar?
+
+Os códigos de teste na AWS não executados na etapa ContinuosTest, no estagio chamado TestRun, que executa o TestSpec, que é um arquivo BuildSpec do CodeBuild ( [Documentação AWS]() ) para gerar os testes.
+
+Nesse arquivo, é necessário para executar os nossos testesm especificar linguagem/runtime que será utilizado( [Versões da AWS]() ), e os comandos necessários para executar a instação das dependências(phase->install) e execução do teste(phase->build).
