@@ -1,0 +1,9 @@
+{
+  "Parameters": {
+    "BuckName": "",
+    "DeployRole": "",
+    "UrlBase": "",
+    "UrlPath": "",
+    "E2EPath": ""
+  }
+}
